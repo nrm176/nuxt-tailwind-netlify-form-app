@@ -8,6 +8,7 @@
       id="simple-contact-form-version-2"
       action="/thankyou/"
   >
+    <input type="hidden" name="form-name" value="simpleContactFormVersion2" />
     <!-- First and last name -->
     <div class="flex flex-wrap -mx-3 mb-6">
       <div class="w-full md:w-1/2 px-3">
