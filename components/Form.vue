@@ -4,11 +4,10 @@
       name="simpleContactFormVersion2"
       method="POST"
       data-netlify="true"
-      data-netlify-recaptcha="true"
       id="simple-contact-form-version-2"
       action="/thankyou/"
   >
-    <input type="hidden" name="form-name" value="simpleContactFormVersion2" />
+    <input type="hidden" name="form-name" value="simpleContactFormVersion2"/>
     <!-- First and last name -->
     <div class="flex flex-wrap -mx-3 mb-6">
       <div class="w-full md:w-1/2 px-3">
@@ -76,7 +75,6 @@
       </div>
     </div>
     <!-- Submit Button -->
-    <div data-netlify-recaptcha="true"></div>
     <div class="md:flex md:items-center">
       <div class="md:w-1/3">
         <button
