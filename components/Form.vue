@@ -6,6 +6,7 @@
       data-netlify="true"
       data-netlify-recaptcha="true"
       id="simple-contact-form-version-2"
+      action="/thankyou/"
   >
     <!-- First and last name -->
     <div class="flex flex-wrap -mx-3 mb-6">
