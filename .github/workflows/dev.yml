@@ -1,0 +1,28 @@
+name: development
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - run: npm ci
+
+      - run: npm run generate
+
+      - run: npx netlify-cli deploy --prod --dir=./dist
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_SAMPLE_FORM }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_SAMPLE_FORM }}
