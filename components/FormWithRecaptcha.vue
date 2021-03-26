@@ -45,6 +45,7 @@
             :disabled="isDisabled"
             class="shadow bg-green-500 bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded"
             type="submit"
+            onclick="submit()"
         >
           送信
         </button>
@@ -87,6 +88,9 @@ export default {
     },
     onExpired() {
       console.log('Expired')
+    },
+    submit() {
+      this.$refs.form.submit()
     }
   }
 }
