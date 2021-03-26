@@ -4,6 +4,7 @@
       name="simpleContactFormVersion2"
       method="POST"
       data-netlify="true"
+      data-netlify-recaptcha="true"
       id="simple-contact-form-version-2"
       action="/thankyou/"
   >
@@ -75,6 +76,7 @@
       </div>
     </div>
     <!-- Submit Button -->
+    <div data-netlify-recaptcha="true"></div>
     <div class="md:flex md:items-center">
       <div class="md:w-1/3">
         <button
