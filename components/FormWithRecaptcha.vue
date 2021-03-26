@@ -57,12 +57,8 @@
 export default {
   data() {
     return {
-      token: ''
-    }
-  },
-  computed: {
-    isDisabled() {
-      return this.token === ''
+      token: '',
+      isDisabled: true
     }
   },
   methods: {
@@ -82,6 +78,8 @@ export default {
     },
     onSuccess(token) {
       console.log('Succeeded:', token)
+      this.token = token
+      this.isDisabled = false
       // here you submit the form
       // this.$refs.form.submit()
     },
