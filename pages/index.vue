@@ -2,7 +2,7 @@
   <div class="container">
     <div class="container">
       <div>
-        <NuxtLink to="/contact">お問い合わせv2</NuxtLink>
+        <a href="/contact">お問い合わせv2</a>
       </div>
       <div>
         <a href="/contactv2">お問い合わせv1</a>
