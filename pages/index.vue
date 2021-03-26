@@ -5,7 +5,7 @@
         <NuxtLink to="/contact">お問い合わせv2</NuxtLink>
       </div>
       <div>
-        <NuxtLink to="/contactv2">お問い合わせv1</NuxtLink>
+        <a href="/contactv2">お問い合わせv1</a>
       </div>
 
     </div>
