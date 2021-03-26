@@ -4,6 +4,9 @@
       action="/thankyou"
       method="post"
       @submit.prevent="onSubmit"
+      data-netlify="true"
+      data-netlify-recaptcha="true"
+      name="simpleContactFormVersion"
   >
     <fieldset>
       <input

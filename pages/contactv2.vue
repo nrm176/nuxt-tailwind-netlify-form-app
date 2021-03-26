@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Form/>
+    <FormWithRecaptcha/>
   </div>
 </template>
 <script>
