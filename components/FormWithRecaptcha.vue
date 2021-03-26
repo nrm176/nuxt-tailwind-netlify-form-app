@@ -18,7 +18,7 @@
           name="emil"
           placeholder="Email"
       />
-    <recaptcha @error="onError" @success="onSuccess" @expired="onExpired"/>
+<!--    <recaptcha @error="onError" @success="onSuccess" @expired="onExpired"/>-->
     <button
         type="submit"
     >
