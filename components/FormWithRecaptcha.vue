@@ -40,7 +40,6 @@
     <div class="md:flex md:items-center">
       <div class="md:w-1/3">
         <button
-            v-bind:disabled="isDisabled"
             class="shadow bg-green-500 bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded"
             type="submit"
         >
