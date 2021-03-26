@@ -1,7 +1,5 @@
 <template>
   <div class="container">
-    <client-only>
-      <Form/>
-    </client-only>
+    <Form/>
   </div>
 </template>
