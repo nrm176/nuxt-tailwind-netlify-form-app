@@ -8,7 +8,6 @@
       data-netlify-recaptcha="true"
       name="simpleContactFormVersion"
   >
-    <fieldset>
       <input
           type="text"
           name="name"
@@ -19,7 +18,6 @@
           name="emil"
           placeholder="Email"
       />
-    </fieldset>
     <recaptcha @error="onError" @success="onSuccess" @expired="onExpired"/>
     <button
         type="submit"
