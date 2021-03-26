@@ -67,8 +67,8 @@ export default {
     },
     async onSubmit() {
       try {
-        this.token = await this.$recaptcha.getResponse()
-        console.log('ReCaptcha token:', this.token)
+        const token = await this.$recaptcha.getResponse()
+        console.log('ReCaptcha token:', token)
         await this.$recaptcha.reset()
       } catch (error) {
         // eslint-disable-next-line no-console
