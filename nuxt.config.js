@@ -43,15 +43,15 @@ export default {
     ],
 
     recaptcha: {
-        hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
-        siteKey: '6LdXN48aAAAAANswtsWcWzHF1T00bNV2mvISHbZU',    // Site key for requests
+        hideBadge: true, // Hide badge element (v3 & v2 via size=invisible)
+        siteKey: '6LdAaY8aAAAAAF3q2ErR4CgYrzGCRbgOCvufbjFb',    // Site key for requests
         version: 2,     // Version
-        size: 'normal'        // Size: 'compact', 'normal', 'invisible' (v2)
+        size: 'invisible'        // Size: 'compact', 'normal', 'invisible' (v2)
     },
     publicRuntimeConfig: {
         recaptcha: {
             /* reCAPTCHA options */
-            siteKey: '6LdXN48aAAAAANswtsWcWzHF1T00bNV2mvISHbZU' // for example
+            siteKey: '6LdAaY8aAAAAAF3q2ErR4CgYrzGCRbgOCvufbjFb' // for example
         }
     },
 
