@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <div class="container">
-      <div>
-        <a href="/contact">お問い合わせv2</a>
-      </div>
-      <div>
+      <p>
+        <NuxtLink to="/contact" no-prefetch>お問い合わせv2</NuxtLink>
+      </p>
+      <p>
         <a href="/contactv2">お問い合わせv1</a>
-      </div>
+      </p>
 
     </div>
   </div>
