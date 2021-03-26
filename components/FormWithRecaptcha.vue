@@ -48,7 +48,7 @@ export default {
     onSuccess(token) {
       console.log('Succeeded:', token)
       // here you submit the form
-      this.$refs.form.submit()
+      // this.$refs.form.submit()
     },
     onExpired() {
       console.log('Expired')
