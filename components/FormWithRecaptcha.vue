@@ -2,13 +2,14 @@
   <form
       ref="form"
       action="/thankyou"
-      method="post"
+      method="POST"
       @submit.prevent="onSubmit"
-      data-netlify="true"
       data-netlify-recaptcha="true"
+      data-netlify="true"
       name="simpleContactFormVersion"
   >
-      <input
+    <input type="hidden" name="form-name" value="simpleContactFormVersion"/>
+    <input
           type="text"
           name="name"
           placeholder="Name"
